@@ -89,7 +89,7 @@ function Transactions({ month, monthText }) {
     try {
       setLoading(true);
       const { data } = await axios.get(
-        `https://roxiler-pvpf.onrender.com/transactions`,
+        `https://roxiler-mern-backend.onrender.com/transactions`,
         {
           params: {
             month,
